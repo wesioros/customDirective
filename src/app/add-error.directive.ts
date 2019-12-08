@@ -25,7 +25,6 @@ export class AddErrorDirective implements OnInit, DoCheck {
   ) {}
   private _permissionIf: string[];
   @Input("appAddErrorFrom") form: FormGroup;
-  @Input("appAddErrorquienSoy") nombre: string;
   context: AddErrorDirectiveContext = new AddErrorDirectiveContext();
 
   ngOnInit() {
